@@ -1,0 +1,85 @@
+.jumbotron {
+    background: url(../assets/img/jumbotron__bckg.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    margin-bottom: 0;
+
+    .container {
+        padding: 0;
+    }
+
+    .footer &{
+        margin-bottom: 2*$spacer;
+    }   
+
+    h1.jumbotron_title, .h1 {
+        display: block;
+        color: white;
+        font-family: 'beacon';
+        font-size: 48px;
+        margin-bottom: $spacer;
+
+        span {
+            font-size: 0.85em;
+        }
+    }
+    
+   
+    .form-group {    
+        border-radius:20px;       
+        padding:$spacer;
+
+        @include media-breakpoint-up(sm) {
+            border-radius:20px;
+        background-color: white;
+            border-radius:40px;
+            padding:$spacer;
+        }
+        &.row {flex-direction: column;
+            @include media-breakpoint-up(sm) {
+                flex-direction: row;
+        }
+    }
+        
+        .form-control {
+            border: none;
+            padding: 1rem 1rem 1rem 3rem;
+          
+            @include media-breakpoint-up(sm) {
+                max-width: 20em;
+                padding: 0.5rem 0.75rem;               
+            }
+        }
+        i {
+            font-size:24px;
+            color: $corail;
+            position: absolute;
+            top:32px;
+            left:24px;
+
+            @include media-breakpoint-up(sm) {
+                position: relative;
+                top: initial;
+                left: initial;
+                font-size:48px;
+            }
+
+        }    
+       
+    }
+    .btn {
+        position: relative;
+        display: block;
+        
+        border-radius: 40px;
+        padding: 1rem;
+        @include media-breakpoint-up(sm) {
+            position: absolute;
+         right: 0;
+        top: 0;
+            border-radius: 0 40px 40px 0;
+            padding: 29px;
+        }
+    }
+    
+}

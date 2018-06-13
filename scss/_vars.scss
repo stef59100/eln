@@ -1,0 +1,14 @@
+$background: #fff;
+$corail:#e28975;
+
+$gray-dark:                 #979797 !default;
+$gray:                      #ababab !default;
+$gray-light:                #636c72 !default;
+$gray-lighter:              #eceeef !default;
+$gray-lightest:             #dfdfdf !default;
+
+$spacer:1rem;
+
+a:focus, a:hover {
+    color:$gray-light;
+}

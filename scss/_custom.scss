@@ -1,0 +1,60 @@
+// Bootstrap overrides
+//
+// Copy variables from `_variables.scss` to this file to override default values
+// without modifying source files.
+
+
+// Create grayscale
+$gray-dark:                 #292b2c !default;
+$gray:                      #ababab !default;
+$gray-light:                #636c72 !default;
+$gray-lighter:              #eceeef !default;
+$gray-lightest:             #f7f7f9 !default;
+$corail:#e28975;
+
+// Reassign color vars to semantic color scheme
+$brand-primary: $corail;
+$link-color:    $corail;
+
+
+//margins
+$m-default :$spacer;
+
+.m-default {
+    margin:  $m-default  !important;
+}
+
+.mt-default {
+    margin-top: $m-default  !important;
+}
+
+.mb-default {
+    margin-bottom: $m-default !important;
+}
+.ml-default {
+    margin-left: $m-default !important;
+}
+.mr-default {
+    margin-right: $m-default  !important;
+}
+
+//fonts
+a:focus, a:hover {
+    color:$gray-dark;
+}
+h1, .h1 {
+    font-size: 1.2em;
+}
+h2, .h2 {
+    font-size: 1.4em;
+}
+h3, .h3 {
+    font-size: 1.55em ;
+}
+
+$jumbotron-padding:  55px;
+
+$border-radius: 1em;
+
+//navbar
+$navbar-inverse-color: white !default;

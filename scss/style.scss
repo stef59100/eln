@@ -1,0 +1,126 @@
+@import "bootstrap.scss";
+
+
+//font faces
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@font-face {
+    font-family: 'beacon';
+    src: url('../assets/fonts/beacon.ttf');
+}
+
+@import "_vars.scss";
+@import "_jumbotron1.scss";
+@import "_navbarCustom.scss";
+
+
+body {
+    overflow-x: hidden;
+    background-color: $background;    
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    color:  $gray-dark;
+
+    @include media-breakpoint-down(sm) {
+      padding-top: 4rem;
+    }
+}
+.btn {
+    border-radius:20px;
+    text-transform: uppercase;
+  
+    &.btn-primary {
+    background-color:$corail;
+    border-color: $corail;
+    }
+}
+
+.catalog_list {
+    .product {
+        text-align: center;
+        margin-bottom:4.5em;
+       
+        .product__infos {
+            
+            h3 {
+                color:$corail;
+                font-weight: 600;
+                padding:    1.5em 0;
+                margin-bottom: $spacer;
+                border-bottom: 3px solid $corail;
+            }
+            .badge {
+                margin:0 0.25em;    
+                &.badge-primary {
+                    background-color: transparent;
+                    color:  $gray;
+                    border: 1px solid $gray-lightest;
+                    font-size: 18px;
+                    font-weight: normal;
+                    padding:0.7em;
+                }
+                
+            }
+            .social {
+                margin-bottom: $spacer;
+                color:  $gray;
+                font-size: 18px;
+
+                @include media-breakpoint-down(sm) {
+                    span {
+                    padding: 0.5rem;
+                  }
+                }
+
+            }
+            
+        }
+        &.card {
+            border-color: $gray-lightest;
+        }
+
+    }
+}
+
+hr {
+    border-top-color:$gray-lightest;
+}
+
+footer {
+    text-align: center;
+    .h1 {
+        display: block;
+        color:$corail;
+        font-family: 'beacon';
+        font-size: 48px;
+        margin-bottom: $spacer;
+    }
+    .nav-footer {
+        color: $corail;
+        font-size: 1.5em;
+        font-weight: 600;
+    }
+    .social {
+        i {
+            font-size: 1rem;
+            color: black;
+            border-radius: 50%;
+            border: 1px solid $gray-lightest;
+            background-color: white;
+            padding: 1rem;
+            margin: 0 0.3rem;
+
+            &.active,&:hover {    
+                color: white;            
+                background-color: $corail;
+                border-color: $corail;
+            }
+            &:hover {
+                cursor: pointer;
+            }
+        }
+    }
+    .copyright {
+        color:  black;
+        
+    }
+}

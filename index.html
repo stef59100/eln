@@ -1,0 +1,402 @@
+<html lang="fr">
+
+<head>
+    <title>Un repas un jour</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+        crossorigin="anonymous">
+</head>
+
+<body>
+    <header>
+        <div class="top_area clearfix container">
+            <div class="float-sm-left mt-default mb-default hidden-sm-down">
+                <img src="assets/img/logo.png" alt="un repas un jour">
+            </div>
+            <div class="float-sm-right mt-default mb-default">
+                <a href="#" class="">
+                    <img src="assets/img/icone__switch.png" alt="">
+                </a>
+                <button class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">Proposer une recette</button>
+            </div>
+        </div>
+
+        <div class="jumbotron">
+            <div class="container">
+                <h1 class="jumbotron_title">Des ingrédients mais pas de recette ?
+                    <br>
+                    <span>C'est par ici !</span>
+                </h1>
+
+                <form action="" id="searchEngine">
+                    <div class="form-group col-md-8 offset-md-2 row">
+                        <i class="fas fa-search"></i>
+                        <input id="ingredient" type="text" class="form-control mb-default mb-sm-0" placeholder="Exemple : tomate, fromage, mache"
+                            data-toggle="tooltip" data-html="true" title="entrez un ingrédient">
+                        <input type="button" class="btn btn-primary" value="rechercher">
+                    </div>
+                </form>
+
+
+            </div>
+        </div>
+        <nav class="navbar navbar-inverse fixed-top navbar-toggleable-sm justify-content-center">
+            <div class="toggler">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a class="navbar-brand hidden-sm-up" href="#">Un repas un jour</a>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="nav nav-pills nav-fill text-uppercase justify-content-center flex-column flex-md-row">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link active">tout</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">jus</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">manger vert</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">musculation</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+
+        </nav>
+
+    </header>
+    <div class="container">
+        <div class="catalog_list row pt-3 pt-sm-0">
+            <div class="col-12 col-md-4">
+                <div class="card product">
+                    <img src="assets/media/recette_visuel01.jpg" alt="recette1" class="product__image">
+                    <div class="product__infos">
+                        <div class="row">
+                            <h3 class="col-6 offset-3">Champignons au boursin</h3>
+                        </div>
+                        <div class="row justify-content-center">
+                            <span class="badge badge-primary">Musculation</span>
+                            <span class="badge badge-primary">Manger vert</span>
+                        </div>
+                        <hr>
+                        <div class="row justify-content-center">
+                            <div class="social soc-1">
+                                <span>Partager sur :</span>
+                                <span class="facebook">
+                                    <a href="#">
+                                        <img src="assets/img/logo_facebook.png" alt="facebook">
+                                    </a>
+                                </span>
+                                <span class="twitter">
+                                    <a href="#">
+                                        <img src="assets/img/logo_twitter.png" alt="twitter">
+                                    </a>
+                                </span>
+                                <span class="Pinterest">
+                                    <a href="#">
+                                        <img src="assets/img/logo_pinterest.png" alt="Pinterest">
+                                    </a>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--end col-->
+            <div class="col-12 col-md-4">
+                <div class="card product">
+                    <img src="assets/media/recette_visuel01.jpg" alt="recette1" class="product__image">
+                    <div class="product__infos">
+                        <div class="row">
+                            <h3 class="col-6 offset-3">Aiguillettes de poulet sauce curry</h3>
+                        </div>
+                        <div class="row justify-content-center">
+                            <span class="badge badge-primary">Musculation</span>
+                            <span class="badge badge-primary">Manger vert</span>
+                        </div>
+                        <hr>
+                        <div class="row justify-content-center">
+                            <div class="social soc-1">
+                                <span>Partager sur :</span>
+                                <span class="facebook">
+                                    <a href="#">
+                                        <img src="assets/img/logo_facebook.png" alt="facebook">
+                                    </a>
+                                </span>
+                                <span class="twitter">
+                                    <a href="#">
+                                        <img src="assets/img/logo_twitter.png" alt="twitter">
+                                    </a>
+                                </span>
+                                <span class="Pinterest">
+                                    <a href="#">
+                                        <img src="assets/img/logo_pinterest.png" alt="Pinterest">
+                                    </a>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!--end bloc product-->
+
+            </div>
+            <!--end col-->
+            <div class="col-12 col-md-4">
+                <div class="card product">
+                    <img src="assets/media/recette_visuel01.jpg" alt="recette1" class="product__image">
+                    <div class="product__infos">
+                        <div class="row">
+                            <h3 class="col-6 offset-3">Soufflé au fromage et champignons</h3>
+                        </div>
+                        <div class="row justify-content-center">
+                            <span class="badge badge-primary">Musculation</span>
+                            <span class="badge badge-primary">Manger vert</span>
+                        </div>
+                        <hr>
+                        <div class="row justify-content-center">
+                            <div class="social soc-1">
+                                <span>Partager sur :</span>
+                                <span class="facebook">
+                                    <a href="#">
+                                        <img src="assets/img/logo_facebook.png" alt="facebook">
+                                    </a>
+                                </span>
+                                <span class="twitter">
+                                    <a href="#">
+                                        <img src="assets/img/logo_twitter.png" alt="twitter">
+                                    </a>
+                                </span>
+                                <span class="Pinterest">
+                                    <a href="#">
+                                        <img src="assets/img/logo_pinterest.png" alt="Pinterest">
+                                    </a>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!--end bloc product-->
+
+            </div>
+            <!--end col-->
+            <div class="col-12 col-md-4">
+                <div class="card product">
+                    <img src="assets/media/recette_visuel01.jpg" alt="recette1" class="product__image">
+                    <div class="product__infos">
+                        <div class="row">
+                            <h3 class="col-6 offset-3">Veau à la bordelaise</h3>
+                        </div>
+                        <div class="row justify-content-center">
+                            <span class="badge badge-primary">Musculation</span>
+                            <span class="badge badge-primary">Manger vert</span>
+                        </div>
+                        <hr>
+                        <div class="row justify-content-center">
+                            <div class="social soc-1">
+                                <span>Partager sur :</span>
+                                <span class="facebook">
+                                    <a href="#">
+                                        <img src="assets/img/logo_facebook.png" alt="facebook">
+                                    </a>
+                                </span>
+                                <span class="twitter">
+                                    <a href="#">
+                                        <img src="assets/img/logo_twitter.png" alt="twitter">
+                                    </a>
+                                </span>
+                                <span class="Pinterest">
+                                    <a href="#">
+                                        <img src="assets/img/logo_pinterest.png" alt="Pinterest">
+                                    </a>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!--end bloc product-->
+
+            </div>
+            <!--end col-->
+            <div class="col-12 col-md-4">
+                <div class="card product">
+                    <img src="assets/media/recette_visuel01.jpg" alt="recette1" class="product__image">
+                    <div class="product__infos">
+                        <div class="row">
+                            <h3 class="col-6 offset-3">Tagliatelles aux câpres</h3>
+                        </div>
+                        <div class="row justify-content-center">
+                            <span class="badge badge-primary">Musculation</span>
+                            <span class="badge badge-primary">Manger vert</span>
+                        </div>
+                        <hr>
+                        <div class="row justify-content-center">
+                            <div class="social soc-1">
+                                <span>Partager sur :</span>
+                                <span class="facebook">
+                                    <a href="#">
+                                        <img src="assets/img/logo_facebook.png" alt="facebook">
+                                    </a>
+                                </span>
+                                <span class="twitter">
+                                    <a href="#">
+                                        <img src="assets/img/logo_twitter.png" alt="twitter">
+                                    </a>
+                                </span>
+                                <span class="Pinterest">
+                                    <a href="#">
+                                        <img src="assets/img/logo_pinterest.png" alt="Pinterest">
+                                    </a>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!--end bloc product-->
+
+            </div>
+            <!--end col-->
+            <div class="col-12 col-md-4">
+                <div class="card product">
+                    <img src="assets/media/recette_visuel01.jpg" alt="recette1" class="product__image">
+                    <div class="product__infos">
+                        <div class="row">
+                            <h3 class="col-6 offset-3">Champignons au boursin</h3>
+                        </div>
+                        <div class="row justify-content-center">
+                            <span class="badge badge-primary">Musculation</span>
+                            <span class="badge badge-primary">Manger vert</span>
+                        </div>
+                        <hr>
+                        <div class="row justify-content-center">
+                            <div class="social soc-1">
+                                <span>Partager sur :</span>
+                                <span class="facebook">
+                                    <a href="#">
+                                        <img src="assets/img/logo_facebook.png" alt="facebook">
+                                    </a>
+                                </span>
+                                <span class="twitter">
+                                    <a href="#">
+                                        <img src="assets/img/logo_twitter.png" alt="twitter">
+                                    </a>
+                                </span>
+                                <span class="Pinterest">
+                                    <a href="#">
+                                        <img src="assets/img/logo_pinterest.png" alt="Pinterest">
+                                    </a>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!--end bloc product-->
+
+            </div>
+            <!--end col-->
+
+        </div>
+        <!--end catalog list -->
+    </div>
+    <!--end container-->
+    <footer class="footer">
+        <div class="jumbotron">
+            <div class="container">
+                <div class="h1 jumbotron_title">Restez au courant de nos dernières recettes
+                    <br>
+                    <span>Inscrivez-vous à notre newsletter</span>
+                </div>
+                <form action="" id="newsletter">
+                    <div class="form-group col-md-8 offset-md-2 row">
+                        <i class="fas fa-envelope"></i>
+                        <input id="newsletter__email" type="text" class="form-control mb-default mb-sm-0" placeholder="Votre adresse e-mail" data-toggle="tooltip"
+                            data-html="true" title="entrez une adresse e-mail valide">
+                        <input type="button" class="btn btn-primary" value="Valider">
+                    </div>
+                </form>
+
+            </div>
+        </div>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="siteTitle h1">Un jour un repas</div>
+            </div>
+            <div class="row justify-content-center">
+                <ul class="nav nav-footer mb-default flex-column flex-sm-row">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Repas aléatoire</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Proposer une recette</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Mentions légales</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="row justify-content-center social mb-default">
+                <a href="#">
+                    <i class="fab fa-facebook-f active"></i>
+                </a>
+                <a href="#">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="#">
+                    <i class="fab fa-pinterest"></i>
+                </a>
+            </div>
+            <div class="row justify-content-center copyright mb-default">
+                Un repas par jour © 2017
+            </div>
+        </div>
+    </footer>
+    <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Proposer une recette</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <form action="#" id="recette">
+                    <div class="modal-body">
+                        <p>Soumetez-nous vos recettes</p>
+
+                        <input type="text" class="form-control mb-default" value="" placeholder="Nom">
+                        <input type="email" class="form-control mb-default" name="email" id="emailRecette" placeholder="e-mail">
+                        <input type="text" class="form-control mb-default" name="preparation" id="preparation" placeholder="temps de préparation">
+                        <input type="text" class="form-control mb-default" name="cuisson" id="cuisson" placeholder="temps de cuisson">
+                        <textarea class="form-control mb-default" name="" id="texte_recette" cols="30" rows="10" placeholder="ingrédients"></textarea>
+
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+                        <button type="button" class="btn btn-primary">Sauvegarder</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div <script src="js/tether.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/actions.js"></script>
+</body>
+
+</html>

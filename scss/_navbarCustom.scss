@@ -1,0 +1,41 @@
+.navbar {
+    background: url('../assets/img/frise.jpg') repeat;    
+    padding: 0;
+&.fixed-top {
+    padding: 1rem;
+    @include media-breakpoint-up(sm) {
+        position:relative;
+        padding: 0;
+    }
+
+}
+
+&.navbar-inverse {
+    .navbar-brand {        
+        color: $corail;
+        padding: 0.5rem;
+    }
+}
+.navbar-collapse {
+    @include media-breakpoint-down(sm) {
+        background-color: white;
+}
+}
+
+
+    .nav-pills {
+        .nav-link {
+            border-radius: 0;
+            padding: 20px;
+        }
+    }
+
+    .nav-pills .nav-link.active, .nav-pills .nav-item.show .nav-link {
+        background-color: $corail;
+    }
+
+}
+
+.navbar-toggler {
+    background-color: $corail;
+}
